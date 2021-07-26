@@ -1,0 +1,51 @@
+<html>
+
+
+<head>
+    <!-- Naming the page and adding style sheets  -->
+    <title>Book Hurst Escape Room</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+            <!-- Logo -->
+            <img width="375" height="121" src="download.png" alt="logo" class="logo">
+            <!-- Navigation bar -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href=AboutEscape.html> About</a>
+                    </li>
+                    <li>
+                        <a href=BookEscape.html> Booking </a>
+                    </li>
+                    <li>
+                        <a href=CountdownEscape.html> Countdown </a>
+                    </li>
+                    <li>
+                        <a href=GroupEscape.html> Create a Group </a>
+                    </li>
+                    <li>
+                        <a href=LoginEscape.html> Login </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--Make a booking form-->
+    <form class="box" action="addBooking.php" method="post">
+        <h1>Make a Booking</h1>
+        <input type="Date" name="Date">
+        <input type="Time" name="time" placeholder="Time" />
+        <input type="submit" name="" value="Book" />
+    </form>
+
+
+</body>
+
+</html>

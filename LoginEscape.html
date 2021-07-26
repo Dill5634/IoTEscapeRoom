@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Hurst Escape Room Login</title>
+    <!-- Naming the page and adding style sheets and other information  -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+            <!-- Logo -->
+            <img width="375" height="121" src="download.png" alt="logo" class="logo">
+            <!-- Navigation bar -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href=AboutEscape.html> About</a>
+                    </li>
+                    <li>
+                        <a href=BookEscape.php> Booking / Join a Group </a>
+                    </li>
+                    <li>
+                        <a href=CountdownEscape.php> Countdown </a>
+                    </li>
+                    <li>
+                        <a href=LoginEscape.html> Login </a>
+                    </li>
+                    <li>
+                        <a href="logout.php">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Login form  -->
+    <div class="main-container">
+        <form class="box" action="login.php" method="post">
+            <h1>Login</h1>
+            <input type="text" name="u_email" placeholder="Email" />
+            <input type="password" name="u_pass" placeholder="Password" />
+            <input type="submit" name="u_btn" value="Login" />
+        </form>
+
+
+    </div>
+
+
+
+</body>
+
+
+
+<!-- Sign up form -->
+<div class="main-container">
+    <form class="box" action="register.php" method="POST">
+        <h1>Sign Up</h1>
+        <input type="text" name="u_name" placeholder="Name" />
+        <input type="email" name="u_email" placeholder="Email" />
+        <input type="password" name="u_pass" placeholder="Password" />
+        <input type="submit" name="u_btn" value="Sign Up">
+    </form>
+
+
+
+
+
+</div>
+
+
+</html>
